@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Dasar</title>
+</head>
+
+<body id="body"">
+    <label for="color"> Select Theme : </label>
+    <select name="color" id="color" onchange="theme()">
+    
+        <option value="white"> white </option>
+        <option value="black"> black </option>
+        <option value="pink"> pink </option>
+        <option value="lightskyblue"> blue </option>
+
+    </select>
+
+    <h1> This is My Website </h1>
+
+    <label for="weather"> Select the weather type today </label>
+    <select name="weather" id="weather" onchange="weather()">
+        <option value="" selected disabled hidden> -- Choose The Weather -- </option>
+        <option value="Autumn"> Autumn </option>
+        <option value="Dry">     Dry   </option>
+        <option value="Rainy">  Rainy  </option>
+        <option value="Spring"> Spring </option>
+        <option value="Summer"> Summer </option>
+        <option value="Winter"> Winter </option>
+    </select>
+    <p id="word"></p>
+
+    <label for="factorial"> Input a number  : </label>
+    <input type="number" name="factorial" id="factorial">
+    <button type="submit" onclick="factorial()"> Get Factorial </button>
+
+    <p id="result"></p>
+
+<script src="eksternal.js"></script> 
+    
+</body>
+</html>
