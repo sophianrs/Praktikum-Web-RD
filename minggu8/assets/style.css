@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(263deg, #00000059, #00000036);
+    background-color : #D06224;
+    
+}
+
+.body-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.bucket {
+    width: 50vw;
+    background-color: #DAD992; /* ganti warna */
+    /* margin: 25vh auto; */
+    font-family: comic sans MS; /*nambah font*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    font-size: 12pt;
+    /* box-shadow: 10px 10px 5px grey; */
+    border-radius: 25px; /* nambah radius */
+}
+
+.bucket p {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.login-field {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background: transparent; */
+    border: none;
+    text-shadow: 0 0 whitesmoke;
+    font-weight: 600;
+    opacity: 0.8;
+    /* color: white; */
+    border-radius: 7px;
+}
+
+.login-btn-submit {
+    background-color: #46de4b;
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.base {
+    display: flex;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    /* gap: 10px 10px; */
+    width: 75%;
+
+}
+
+aside {
+    width: 25%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color : #E9C891;
+    transition: 0.3s;
+    margin: 10px;
+    min-height: 235px;
+    /* width: 25%; */
+    /* height: 200px; */
+    border-radius: 25px; /* nambah radius */
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 5px 16px;
+
+}
+
+.card-head {
+    margin: 0;
+    overflow: hidden;
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    font-family: comic sans MS;
+}
+}
+.card-body {
+    overflow: hidden;
+    line-height: 2rem;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    font-family: comic sans MS;
+}
+
+aside {
+    min-height: 100%;
+    border: solid 1px #a18f8f29;
+    padding: 10px;
+    background-color : #E9C891;
+    font-family: comic sans MS;
+}
+
+.h1 {
+    font-family: comic sans MS;
+}
+
+.h3 {
+    font-family: comic sans MS;
+}
